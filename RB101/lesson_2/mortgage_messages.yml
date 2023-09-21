@@ -1,0 +1,20 @@
+welcome: "Welcome to mortgage calculator!\n"
+div: "-------------------------------\n"
+name_prompt: "Please enter your name: "
+invalid_name: "Please make sure to enter a valid name!\n"
+greet: "Hi %{name}! Let's figure out your mortagage plan together.\n\n"
+loan_amount_prompt: "Please enter your loan amount: $ "
+invalid_amount: "Please enter a positive number over 0, with max. 2 decimals!\n"
+apr_prompt: "Please enter the Annual Percentage Rate (APR) in %: "
+invalid_apr: "Please enter a non-negative number, with max. 2 decimals!\n"
+duration_prompt: |
+  Please enter the loan duration in years and months. Fill in years first, then months.
+  => Make sure to only enter integers, for example:   Years: 5    Months: 6
+
+years: "  Years: "
+months: "  Months: "
+invalid: "Please make sure to enter a valid number! \n"
+invalid_duration: "Years and months can't be both 0. Please enter a valid duration!\n"
+results: "Given the details you have provided, your results are:\n"
+again: "Would you like to calculate another mortgage plan? (Y for yes) "
+thanks: "Thanks for using mortgage calculator!\n\n"

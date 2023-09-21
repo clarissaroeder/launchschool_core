@@ -1,0 +1,17 @@
+welcome: |
+  WELCOME TO TIC TAC TOE!
+
+  => You'll play against the computer as 'X'. First to win 5 rounds wins the game!
+  => -----------------------------------------------------------------------------
+first: "=> Do you want to go first? Press 'Y' for yes or 'N' for no. "
+invalid_first: "Sorry, this is an invalid choice. Please try again!"
+invalid_square: "Sorry, this is not a valid square!"
+continue: "=> Press Enter to continue. "
+tie: "This round's a tie!"
+keep_playing: "Keep playing! The game is still going..."
+again: "=> Do you want to play again? Press 'Y' for yes. "
+bye: "Thank you for playing TIC TAC TOE. Goodbye!"
+layout: "Squares are numbered from top left (1) to bottom right (9)."
+win: "CONGRATS! You won the game!"
+loss: "TOO BAD! The computer won the game this time."
+delimiter: "------------------------------------------------"

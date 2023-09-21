@@ -1,0 +1,46 @@
+# English
+en:
+  welcome: "Welcome to Calculator! Enter your name:"
+  greeting: "Hi "
+  number1: "What's the first number?"
+  number2: "What's the second number?"
+  invalid_name: "Make sure to use a valid name."
+  invalid_number: "Hmm... that doesn't look like a valid number."
+  operator_prompt: |
+    What operation would you like to perform?
+    1) add
+    2) subtract
+    3) multiply
+    4) divide
+  add: "Adding"
+  subtract: "Subtracting"
+  multiply: "Multiplying"
+  divide: "Dividing"
+  invalid_op: "Must choose 1, 2, 3, or 4."
+  computing: " the two numbers..."
+  result: "The result is "
+  again: "Do you want to perform another calculation? (Y to calculate again)"
+  goodbye: "Thanks for using calculator!"
+# German
+de:
+  welcome: "Willkommen im Taschenrechner. Gib deinen Namen ein:"
+  greeting: "Hi "
+  number1: "Was ist die erste Zahl?"
+  number2: "Was ist die zweite Zahl?"
+  invalid_name: "Bitte gib einen gültigen Namen ein."
+  invalid_number: "Hmm... das sieht nicht wie eine gültige Zahl aus."
+  operator_prompt: |
+    Welche Rechenart möchtest du ausführen?
+    1) addieren
+    2) subtrahieren
+    3) multiplizieren
+    4) dividieren
+  add: "Addition"
+  subtract: "Subtraktion"
+  multiply: "Multiplikation"
+  divide: "Division"
+  invalid_op: "Wähle 1, 2, 3, oder 4."
+  computing: " der beiden Zahlen..."
+  result: "Das Ergebnis ist "
+  again: "Möchtest du noch eine Kalkulation durchführen? (Y für nochmal)"
+  goodbye: "Danke, dass du Taschenrechner genutzt hast!"

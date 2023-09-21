@@ -1,0 +1,18 @@
+welcome: |
+  WELCOME TO ROCK, PAPER, SCISSORS, LIZARD, SPOCK!
+  => You'll play against the computer. First to win 3 rounds wins the match!
+  => -----------------------------------------------------------------------
+how_to_play: |
+  To choose, type the word or its corresponding abbreviation:
+  => rock(r); paper(p); scissors(s); lizard(l); spock(v)\n
+invalid_choice: "That is not a valid choice!"
+won: "You won!"
+lost: "You lost!"
+tie: "It's a tie!"
+result_round: "You chose %{player}; computer chose %{computer}. %{result}"
+keep_playing: "Keep playing! This match is still going..."
+congrats: "Congratulations! You won the match."
+sorry: "Too bad, the computer won the match this time!"
+div: "----------------------------------------------"
+again: "Do you want to play again? Press 'Y/y' for yes."
+bye: "Thank you for playing. Goodbye!"

@@ -1,0 +1,1 @@
+10.times {|i| print " " * i + "The Flintstones Rock!\n"}

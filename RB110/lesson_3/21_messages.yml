@@ -1,0 +1,41 @@
+welcome: "Welcome to Twenty-One!"
+separator: "========================"
+how_to: "You'll play against the Dealer. First to win 5 rounds wins the game!"
+wait: "=> Press Enter to continue. "
+again: "=> Do you want to play again? Press 'y' for yes."
+bye: "Thanks for playing Twenty-One! Goodbye."
+
+dealer_hand: "Dealer: %{hand}"
+dealer_all: "Dealer: %{hand}, total: %{total}"
+player_hand: "You: %{hand}, total: %{total}"
+hand_comparison: |
+  ========================
+  => Dealer has %{dealer_hand}, for a total of %{d_total}.
+  => You have %{player_hand}, for a total of %{p_total}.
+  => ========================
+
+blackjack: "=> You have a blackjack! Stay here. "
+twentyone: "=> You've reached the goal of 21! Stay here. "
+choice: "=> Do you want to (h)it or (s)tay? "
+invalid_choice: "Sorry, you must enter 'h' or 's'."
+hit: "You chose to hit!"
+stay: "You chose to stay at %{total}. Dealer's turn..."
+
+dealer_hit: "Dealer hit!"
+dealer_stay: "Dealer stays at %{total}."
+
+player_bust: "You busted. Dealer wins!"
+dealer_bust: "Dealer busted. You win!"
+win: "You win!"
+lose: "Dealer wins!"
+tie: "It's a tie!"
+grand_win: |
+  ========================  
+  => CONGRATULATIONS, you won this game!
+  => You're on a streak!
+  => ========================
+grand_lose: |
+  ========================
+  => Too bad, the dealer won this game...
+  => Better luck next time!
+  => ========================

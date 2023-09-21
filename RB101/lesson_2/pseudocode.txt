@@ -1,0 +1,106 @@
+1. A method that returns the sum of two integers
+
+    Define a method called "add" that takes to integers as input.
+      - Add the two integers together and save result in a variable.
+      - Return that variable.
+
+
+    START
+
+    SET method "add"(integer 1, integer 2)
+      SET result = integer 1 + integer 2
+    END
+
+2. A method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+    Define a method called "make sentence" that takes an array of strings as input
+      - Iterate through the array:
+        - For each iteration, add the current element to a variable "sentence". 
+        - Add a space after each word except the last. (Or check if there is a method to append with space automatically)
+      
+      - Return sentence
+    
+
+    START
+
+    SET method "make_sentence"(strings[])
+      SET sentence = nil;
+      WHILE iterator < length of strings[]
+        add strings[iterator] to sentence
+        add space (if necessary)
+
+      REMOVE trailing space
+      RETURN sentence
+    END
+
+3. A method that takes an array of integers, and returns a new array with every other element from the original array, starting with the first element.
+
+    Define a method called "every_other" that takes an array of integers as input
+      - Iterate through the array:
+        - If the index is even, append that number to a new array
+    
+      - Return the new array
+
+    
+    START
+
+    SET method "every_other"(integers[])
+      SET new_array = []
+      WHILE iterator < length of integers[]
+        IF iterator.even?
+          append integers[iterator] to new_array
+        
+      RETURN new_array
+    END
+
+4. A method that determines the index of the 3rd occurrence of a given character in a string. For instance, if the given character is 'x' and the string is 'axbxcdxex', 
+   the method should return 6 (the index of the 3rd 'x'). If the given character does not occur at least 3 times, return nil.
+   
+    Define a method called "third" that takes a string and a character as input
+      - Set a counter to 0
+      - Iterate over the string:
+        - If the current character is equal to the input character:
+          - Add one to the counter
+          - If counter is equal to 3:
+            - Return iterator
+      
+      - If counter is smaller than 3:
+        - Return nil
+      
+    
+    START
+
+    SET method "third"(string, character)
+      SET counter = 0
+      WHILE iterator < string length
+        IF string[iterator] == character
+          counter += 1
+
+          IF counter == 3
+            return iterator
+      
+      IF counter < 3
+        return nil
+    END
+
+4. A method that takes two arrays of numbers and returns the result of merging the arrays. The elements of the first array should become the elements 
+   at the even indexes of the returned array, while the elements of the second array should become the elements at the odd indexes
+
+    Define a method called "merge" that takes two arrays as input:
+      - Define new array
+      - Iterate over the arrays:
+        - Add element at iterator-th position of array 1 to the same position in the new array
+        - Add element at iterator-th position of array 2 to iterator-th + 1 position in the new array
+      - Return new array
+    
+
+    START
+  
+    SET method "merge"(array1, array2)
+      SET new_array = []
+      WHILE iterator < length of array1
+        new_array[iterator] = array1[iterator]
+        new_array[iterator + 1] = array2[iterator]
+      
+      return new_array
+    END
