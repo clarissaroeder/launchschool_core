@@ -1,0 +1,132 @@
+.styled-form * {
+  margin: 0;
+  padding: 0;
+}
+
+.styled-form fieldset {
+  background-color: #ececec;
+  border: 2px solid #999;
+  box-sizing: border-box;
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+
+.styled-form h1 {
+  color: #06c;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.styled-form label {
+  display: block;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="email"],
+.styled-form input[type="number"],
+.styled-form input[type="submit"],
+.styled-form input[type="reset"],
+.styled-form select {
+  border: 1px solid #06c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  font: normal 1rem Arial, Helvetica, sans-serif;
+  height: 40px;
+  padding: 5px 8px;
+  width: 100%;
+}
+
+.styled-form input[type="submit"],
+.styled-form input[type="reset"] {
+  background-color: #06c;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  width: 20%;
+}
+
+.styled-form input[type="submit"]:hover,
+.styled-form input[type="reset"]:hover {
+  background-color: #4f89c4;
+}
+
+.styled-form select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image:  url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  padding-right: 1.5rem;
+}
+
+/* side by side design */
+.styled-form dl.partial {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-right: 1rem;
+  vertical-align: top;
+}
+
+.styled-form dl.city,
+.styled-form dl.firstname,
+.styled-form dl.lastname {
+  width: 50%;
+}
+
+.styled-form dl.lastname {
+  padding-right: 0;
+}
+
+.styled-form dl.state {
+  width: 10%;
+  padding-right: 0;
+}
+
+.styled-form dl.zip {
+  width: 40%;
+}
+
+.styled-form dl dd {
+  width: auto;
+}
+
+.styled-form fieldset,
+.styled-form dl,
+.styled-form dl dt,
+.styled-form dl dd {
+  font-size: 0;
+}
+
+.styled-form label,
+.styled-form input[type="text"] {
+  font-size: 1rem;
+}
+
+.styled-form ul.choice {
+  list-style-type: none;
+}
+
+.styled-form ul.choice li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.styled-form ul label {
+  font-weight: normal;
+}
+
+.styled-form textarea {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem;
+}

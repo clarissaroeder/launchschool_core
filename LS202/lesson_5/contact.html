@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your title goes here</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <form action="#" method="post" class="styled-form">
+      <fieldset>
+        <h1>Contact Form</h1>
+        <dl class="firstname partial">
+          <dt><label for="first-name">First Name</label></dt>
+          <dd><input type="text" name="first-name" id="first-name"></dd>
+        </dl>
+
+        <dl class="lastname partial">
+          <dt><label for="last-name">Last Name</label></dt>
+          <dd><input type="text" name="last-name" id="last-name"></dd>
+        </dl>
+
+        <dl>
+          <dt><label for="email">Email</label></dt>
+          <dd><input type="email" name="email" id="email" placeholder="example@mail.com"></dd>
+        </dl>
+
+        <dl class="city partial">
+          <dt><label for="city">City</label></dt>
+          <dd><input type="text" name="city" id="city"></dd>
+        </dl>
+
+        <dl class="zip partial">
+          <dt><label for="zip">Post Code</label></dt>
+          <dd><input type="text" name="zip" id="zip" pattern="[0-9]{5}" placeholder="#####"></dd>
+        </dl>
+
+        <dl class="state partial">
+          <dt><label for="state">State</label></dt>
+          <dd>
+            <select id="state">
+              <option value="" disabled selected>Select</option>
+              <option>AK</option>
+              <option>AL</option>
+              <option>AR</option>
+              <option>AZ</option>
+              <option>CA</option>
+              <option>CO</option>
+              <option>CT</option>
+              <option>DC</option>
+              <option>DE</option>
+              <option>FL</option>
+              <option>GA</option>
+              <option>HI</option>
+              <option>IA</option>
+              <option>ID</option>
+              <option>IL</option>
+              <option>IN</option>
+              <option>KS</option>
+              <option>KY</option>
+              <option>LA</option>
+              <option>MA</option>
+              <option>MD</option>
+              <option>ME</option>
+              <option>MI</option>
+              <option>MN</option>
+              <option>MO</option>
+              <option>MS</option>
+              <option>MT</option>
+              <option>NC</option>
+              <option>ND</option>
+              <option>NE</option>
+              <option>NH</option>
+              <option>NJ</option>
+              <option>NM</option>
+              <option>NV</option>
+              <option>NY</option>
+              <option>OH</option>
+              <option>OK</option>
+              <option>OR</option>
+              <option>PA</option>
+              <option>RI</option>
+              <option>SC</option>
+              <option>SD</option>
+              <option>TN</option>
+              <option>TX</option>
+              <option>UT</option>
+              <option>VA</option>
+              <option>VT</option>
+              <option>WA</option>
+              <option>WI</option>
+              <option>WV</option>
+              <option>WY</option>
+            </select>
+          </dd>
+        </dl>
+
+        <dl>
+          <dt><label for="colour">Which of these colours do you like best?</label></dt>
+          <dd>
+            <ul class="choice">
+              <li>
+                <label>
+                  <input type="radio" name="colour" value="red">
+                  Red
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="colour" value="blue">
+                  Blue
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="colour" value="green">
+                  Green
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="colour" value="yellow">
+                  Yellow
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="colour" value="purple">
+                  Purple
+                </label>
+              </li>
+            </ul>
+            <!-- 
+            <select id="colour">
+              <option name="colour" value="red">Red</option>
+              <option name="colour" value="blue">Blue</option>
+              <option name="colour" value="green">Green</option>
+              <option name="colour" value="yellow">Yellow</option>
+              <option name="colour" value="purple">Purple</option>
+            </select> -->
+          </dd>
+        </dl>
+
+        <dl>
+          <dt><label for="tech">Which web technologies do you want to learn?</label></dt>
+          <dd>
+            <ul class="choice">
+              <li>
+                <label>
+                  <input type="checkbox" value="html">
+                  HTML
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="css">
+                  CSS
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="ruby">
+                  Ruby
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="rails">
+                  Rails
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="javascript">
+                  Javascript
+                </label>
+              </li>
+            </ul>
+            <!-- <select id="tech" mulitple>
+              <option name="tech" value="html">HTML</option>
+              <option name="tech" value="css">CSS</option>
+              <option name="tech" value="ruby">Ruby</option>
+              <option name="tech" value="rails">Rails</option>
+              <option name="tech" value="javascript">Javascript</option>
+            </select> -->
+          </dd>
+        </dl>
+
+
+        <dl>
+          <dt><label for="comments">Comments</label></dt>
+          <dd><textarea rows="6" cols="80" placeholder="Enter your message here."></textarea></dd>
+        </dl>
+
+        <input type="hidden" name="timestamp" value="31/01/2024">
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </fieldset>
+    </form>
+  </body>
+</html>

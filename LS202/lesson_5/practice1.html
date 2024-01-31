@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your title goes here</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href=""> -->
+    <style>
+      .styled-form * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .styled-form fieldset {
+        background-color: #ececec;
+        border: 2px solid #999;
+        box-sizing: border-box;
+        color: #4d4d4d;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem;
+      }
+
+      .styled-form label {
+        font-weight: bold;
+        line-height: 1.5rem;
+        padding-top: 0.3333rem;
+      }
+
+      .styled-form input[type="text"],
+      .styled-form input[type="email"],
+      .styled-form input[type="tel"],
+      .styled-form input[type="submit"] {
+        border: 1px solid #06c;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font: normal 1rem Arial, Helvetica, sans-serif;
+        height: 40px;
+        padding: 5px 8px;
+      }
+
+      .styled-form div {
+        margin-top: 1rem;
+      }
+
+      .side-by-side label,
+      .side-by-side input[type="text"] {
+        display: inline-block;
+      }
+
+      .side-by-side label {
+        vertical-align: middle;
+        width: 100px;
+      }
+
+      .side-by-side input[type="text"] {
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" class="styled-form side-by-side" method="post">
+      <fieldset>
+        <div>
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" required>
+        </div>
+
+        <div>
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" autocapitalize="none" 
+          autocomplete="off" autocorrect="off" required>
+        </div>
+        
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" required>
+        </div>
+
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

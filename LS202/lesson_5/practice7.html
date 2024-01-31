@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your title goes here</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href=""> -->
+
+    <style>
+      .styled-form * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .styled-form fieldset {
+        background-color: #ececec;
+        border: 2px solid #999;
+        box-sizing: border-box;
+        color: #4d4d4d;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem;
+      }
+
+      .styled-form label {
+        font-weight: bold;
+      }
+
+      .side-by-side label,
+      .side-by-side input[type="text"],
+      .side-by.side button {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="get" class="styled-form side-by-side">
+      <fieldset>
+        <label>
+          Search for
+          <input type="search" name="query" id="query">
+        </label>
+
+        <label>
+          <input type="radio" name="filter" value="tv" required>
+          TV
+        </label>
+
+        <label>
+          <input type="radio" name="filter" value="movies" required>
+          Movies
+        </label>
+
+        <label>
+          <input type="radio" name="filter" value="music" required>
+          Music
+        </label>
+
+        <button type="submit" name="search">Search</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
