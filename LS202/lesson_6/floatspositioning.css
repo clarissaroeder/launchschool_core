@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #545459;
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+.container {
+  border: 2px solid #999;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000px;
+}
+
+section h1,
+section h2,
+section h3 {
+  background-color: inherit;
+  color: #ce4a4a;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+section h1 {
+  font-size: 24px;
+}
+
+section h2 {
+  font-size: 20px;
+}
+
+section h3 {
+  font-size: 16px;
+}
+
+section p {
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+section.inline .example-container {
+  border: 2px dashed #555;
+  margin: 45px;
+  padding: 30px;
+  width: 650px;
+}
+
+section a {
+  background-color: inherit;
+  color: #333;
+  text-decoration: none;
+}
+
+section .inline-margin a {
+  margin: 30px;
+}
+
+section .inline-padding a {
+  background-color: green;
+  color: white;
+  padding: 30px;
+}
+
+section .inline-float {
+  overflow: hidden;
+}
+
+section .inline-float a {
+  background-color: green;
+  border: 2px solid darkgreen;
+  color: white;
+  float: left;
+  margin: 15px;
+  padding: 25px;
+  text-align: center;
+  width: 120px;
+}
+
+section .block {
+  background-color: dodgerblue;
+  color: white;
+}
+
+section .block-hmp {
+  background-color: green;
+  color: white;
+  height: 60px;
+  margin: 20px;
+  padding: 20px;
+}
+
+section .block-w {
+  background-color: tomato;
+  color: white;
+  width: 90px;
+}
+
+section .block-hmpw {
+  background-color: pink;
+  color: white;
+  height: 120px;
+  margin: 20px;
+  padding: 20px;
+  width: 180px;
+}
+
+section.block .example-container {
+  margin-bottom: 35px;
+}
+
+section .block-float {
+  overflow: hidden;
+}
+
+section .float-left {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  color: white;
+  float: left;
+}
+
+section .float-right {
+  background-color: tomato;
+  border: 1px solid red;
+  color: white;
+  float: right;
+}
+
+section .float-left-wh {
+  background-color: tomato;
+  color: white;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 40%;
+}
+
+section .float-right-wh {
+  background-color: dodgerblue;
+  color: white;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 50%;
+}
+
+section .conversion a {
+  background-color: dodgerblue;
+  color: white;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+section .nav {
+  text-align: center;
+}
+
+section .nav a {
+  background-color: dodgerblue;
+  color: white;
+  display: inline-block;
+  margin: 20px 8px 25px;
+  padding: 20px 30px;
+  text-align: center;
+  width: 180px;
+}
+
+section.inline-block::after {
+  border-bottom: 2px dashed #545459;
+  content: "";
+  display: block;
+  padding-top: 30px;
+  width: 100%;
+}
+
+section.floats-positioning h1 {
+  margin: 30px 0 25px;
+  text-align: center;
+}
+
+section .float-box-1 {
+  background-color: tomato;
+  color: white;
+  float: left;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 450px;
+}
+
+section .float-box-2 {
+  background-color: dodgerblue;
+  color: white;
+  float: left;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 505px;
+}
+
+section .float-box-3 {
+  background-color: seagreen;
+  color: white;
+  clear: both;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 35px;
+  text-align: center;
+  width: 955px;
+}
+
+section.positioning ul {
+  margin: 0 0 45px 40px;
+}
+
+section.positioning li {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+section .fixed {
+  background-color: dodgerblue;
+  bottom: 50px;
+  border-radius: 10px;
+  color: white;
+  left: 35px;
+  padding: 25px 35px;
+  position: fixed;
+  text-align: center;
+  width: 225px;
+}
+
+section .relative {
+  background-color: tomato;
+  border-radius: 10px;
+  bottom: -45px;
+  color: white;
+  margin-bottom: 30px;
+  padding: 25px 35px;
+  position: relative;
+  right: 90px;
+  text-align: center;
+  width: 325px;
+}
+
+section .wrapper-absolute {
+  position: relative;
+}
+
+section .absolute {
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  left: 230px;
+  margin-bottom: 35px;
+  padding: 25px 35px;
+  position: absolute;
+  text-align: center;
+  top: -30px;
+  width: 200px;
+}
