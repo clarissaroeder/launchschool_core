@@ -1,0 +1,88 @@
+html {
+  font: 400 20px "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #2f2840 url(bg_body.gif);
+  color: #45494d;
+  padding: 75px 0 50px;
+}
+
+header, main, footer {
+  box-sizing: border-box;
+  margin: 0 auto;
+  min-width: 550px;
+  max-width: 1000px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 76px 0 0 1px;
+  padding-bottom: 50px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+  color: black;
+  margin-top: 44px;
+  padding: 70px 0;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+}
+
+main h2::before,
+main h2::after {
+  content: "\2022";
+  font-size: 1.4rem;
+  padding: 0 26px;
+  vertical-align: 5px;
+}
+
+main h3 {
+  color: #3e98b2;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+main article {
+  margin: 0 90px 160px;
+}
+
+main article + article {
+  margin-bottom: 0;
+}
+
+main p {
+  line-height: 28px;
+  margin: 22px 0 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  display: block;
+  margin: 34px 120px 34px 0;
+}
+
+footer img:last-child {
+  margin-right: 0;
+}

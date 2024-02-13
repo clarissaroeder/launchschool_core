@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: #2f2840 url(images/bg_body.gif) 50% 0;
+  color: #45494d;
+  font: 400 24px "Avenir", "Nunito Sans", Helvetica, Arial, sans-serif;
+  padding-top: 133px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  margin-bottom: 77.5px;
+}
+
+header nav {
+  font-size: 26px;
+  line-height: 28px;
+  padding: 38px;
+  text-transform: uppercase;
+}
+
+header li {
+  display: inline;
+  margin-right: 68px;
+}
+
+header li:first-child {
+  margin-left: 17px;
+}
+
+header li:last-child {
+  margin-right: 36px;
+}
+
+header a {
+  color: #cacaca;
+}
+
+header a.active {
+  color: #6db9ff;
+  font-weight: 600;
+}
+
+main {
+  background: white;
+  margin-top: 3px;
+  padding: 100px 0 0;
+}
+
+.column {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 1000px;
+}
+
+article {
+  padding: 14px 92px 77px 88px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 55px;
+}
+
+h2::before, h2::after {
+  content: "\2022";
+  font-size: 1.4rem;
+  padding: 0 26px;
+  vertical-align: 5px;
+}
+
+h3 {
+  color: #3e59b2;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: -10px;
+}
+
+main p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-top: 20px;
+}
+
+footer {
+  background: #e7e7e7;
+  color: #b5b5b5;
+  padding: 82px 0 75px;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 500px;
+  margin-bottom: 38px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+footer li a {
+  background:
+    transparent
+    url("images/icons_social-media.png")
+    0 0 no-repeat;
+  display: block;
+  height: 46px;
+  overflow: hidden;
+  text-indent: -8685px;
+  width: 46px;
+}
+
+footer li a.twitter {
+  background-position: 0 0;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instagram {
+  background-position: 0 -138px;
+}
+
+#projects article {
+  padding: 0 0 30px;
+}
+
+#projects h2 {
+  margin-bottom: 32px;
+}
+
+#projects img {
+  display: block;
+  width: 100%;
+}
+
+#projects h3 {
+  margin-top: 42px;
+}
+
+#projects article p {
+  padding: 0 100px;
+}
+
+#team li {
+  display: inline-block;
+  font-size: 24px;
+  padding: 130px 27px 130px 28px;
+}
+
+#team li img {
+  display: block;
+  margin-bottom: 30px;
+}

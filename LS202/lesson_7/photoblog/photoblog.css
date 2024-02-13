@@ -1,0 +1,90 @@
+@import url(../../../boilerplates/whitespace-reset.css);
+
+html {
+  font: normal 18px "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(#d2dbbd, #fcfff5);
+  background-repeat: no-repeat;
+}
+
+header {
+  box-sizing: border-box;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+header h1 {
+  background: transparent url("logo.png") 0 0 no-repeat;
+  color: #193441;
+  float: left;
+  font-size: 36px;
+  font-weight: normal;
+  padding: 45px 0 15px 115px;
+}
+
+nav {
+  float: right;
+  padding-top: 75px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  background: #fcfff5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #91aa9d;
+  display: block;
+  padding: 10px 40px 15px 40px;
+  text-decoration: none;
+}
+
+nav .active {
+  background: #91aa9d;
+  color: #fcfff5;
+}
+
+main {
+  background: white;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px #b5b5b5;
+  color: #3e606f;
+  clear: both;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+  width: 960px;
+}
+
+.masthead {
+  display: block;
+}
+
+main h1 {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 40px 0 25px;
+}
+
+main p {
+  padding-bottom: 20px;
+}
+
+figure {
+  float: right;
+  padding: 0 0 20px 30px;
+}
+
+footer {
+  box-sizing: border-box;
+  color: #3e606f;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 15px 0 40px;
+  width: 960px;
+}
